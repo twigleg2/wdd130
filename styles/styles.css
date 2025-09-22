@@ -52,11 +52,12 @@ main img {
     height: auto;
     border: 1px solid black;
     padding:2px;
+    margin: 1rem;
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 0;
+    margin: 1rem;
 }
 
 /* CSS class selectors */
@@ -64,7 +65,12 @@ p {
 .box {
     margin: 1rem;
     padding: 1rem;
+    clear: both;
     border: 1px solid rgb(0 0 0 / 0.2);
     background-color: #ddd;
     color: black;
+}
+
+.indent_left {
+    padding-left: 2rem;
 }
